@@ -1,0 +1,33 @@
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-rounded:            false;
+
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+// Start with assigning color names to specific hex values.
+$white:  #fff;
+$black:  #000;
+$red:    #F44336;
+$orange: #FF9800;
+$yellow: #FFEB3B;
+$green:  #8BC34A;
+$blue:   #3F51B5;
+$teal:   #2196F3;
+$pink:   #E91E63;
+$purple: #9C27B0;
+
+// Create grayscale
+$gray-dark:                 #424242;
+$gray:                      #9E9E9E;
+$gray-light:                #BDBDBD;
+$gray-lighter:              #E0E0E0;
+$gray-lightest:             #EEEEEE;
+
+// Reassign color vars to semantic color scheme
+$brand-danger:              $pink;
